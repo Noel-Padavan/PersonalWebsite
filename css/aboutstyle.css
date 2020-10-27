@@ -5,6 +5,7 @@
 #programminglangs, #languagesspoken, #accomplishments {
     animation-delay: 1s;
 }
+
 /* controls everything for the header, makes it stick to top*/
 header {
     border-style: solid;
@@ -66,7 +67,7 @@ body {
     background-image: none;
 }*/
 
-span {
+#about {
     background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
     background-clip: text;
     -webkit-background-clip: text;
