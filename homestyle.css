@@ -1,0 +1,60 @@
+nav {
+    font-size: 1.6em;
+    margin-top: -5%;
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    margin-left: 1%;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+
+/* TEST FOR OCEAN BACKGROUND */
+body {
+    background-image: url(images/ocean1.png);
+}
+
+.animate__animated.animate__fadeIn {
+    --animate-duration: 5s;
+}
+
+.animate__animated.animate__zoomIn {
+    --animation-duration: 30s;
+}
+a:hover {
+    color: blue;
+}
+
+h1 {
+    margin-top: 15%;
+    font-size: 12em;
+}
+h1 {
+    background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: hue 10s infinite linear;
+}
+
+@-webkit-keyframes hue {
+    from {
+        -webkit-filter: hue-rotate(0deg);
+    }
+    to {
+        -webkit-filter: hue-rotate(-360deg);
+    }
+}

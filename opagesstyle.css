@@ -1,0 +1,15 @@
+h1 {
+    text-align: left;
+    margin-left: 1vw;
+    font-size: 6em;
+}
+
+p {
+    text-align-last: left;
+    margin-left: 1vw;
+    font-size: 1.5em;
+}
+
+body {
+    background-image: url(images/ocean1.png);
+}
