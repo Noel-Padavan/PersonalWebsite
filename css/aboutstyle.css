@@ -26,9 +26,7 @@ h1 {
 }
 
 /* lines all the lists side by side in the most primitive way */
-#lists {
-    margin-left: 5%;
-}
+
 #programminglangs {
     position: absolute;
     top: 21%;
@@ -37,13 +35,13 @@ h1 {
 #languagesspoken {
     position: absolute;
     top: 21%;
-    margin-left: 32%;
+    margin-left: 33%;
 }
 
 #accomplishments {
     position: absolute;
     top: 21%;
-    margin-left: 65%;
+    margin-left: 70%;
 }
 
 
