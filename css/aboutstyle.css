@@ -1,6 +1,10 @@
 .animate__animated.animate__fadeIn {
     --animate-duration: 2s;
 }
+
+#programminglangs, #languagesspoken, #accomplishments {
+    animation-delay: 1s;
+}
 /* controls everything for the header, makes it stick to top*/
 header {
     border-style: solid;
@@ -17,9 +21,31 @@ header {
     font-size: 1.5em;
 }
 
-#programminglangs {
-    margin-top: -3%;
+h1 {
+    text-align: center;
 }
+
+/* lines all the lists side by side in the most primitive way */
+#lists {
+    margin-left: 5%;
+}
+#programminglangs {
+    position: absolute;
+    top: 21%;
+}
+
+#languagesspoken {
+    position: absolute;
+    top: 21%;
+    margin-left: 32%;
+}
+
+#accomplishments {
+    position: absolute;
+    top: 21%;
+    margin-left: 65%;
+}
+
 
 h2 {
     margin-left: -1%;
@@ -39,8 +65,7 @@ nav > a{
 /* for writing purposes only 
 body {
     background-image: none;
-}
-*/
+}*/
 
 span {
     background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
