@@ -26,7 +26,9 @@ h1 {
 }
 
 /* lines all the lists side by side in the most primitive way */
-
+#lists {
+    margin-left: 5%;
+}
 #programminglangs {
     position: absolute;
     top: 21%;
@@ -43,7 +45,6 @@ h1 {
     top: 21%;
     margin-left: 70%;
 }
-
 
 h2 {
     margin-left: -1%;
