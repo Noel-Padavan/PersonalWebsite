@@ -23,10 +23,11 @@ nav > a {
     font-size: 15px;
 }
 
-/* TEST FOR OCEAN BACKGROUND */
+/* TEST FOR OCEAN BACKGROUND 
 body {
     background-image: url(images/ocean1.png);
 }
+*/
 
 /*
 .animate__animated.animate__fadeIn {
