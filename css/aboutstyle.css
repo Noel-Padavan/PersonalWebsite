@@ -7,27 +7,27 @@
     animation-delay: 1s;
 }
 
-#l1 {
+#programminglangs {
     animation-delay: 2s;
 }
 
-#l2 {
+#languagesspoken {
     animation-delay: 2.5s;
 }
 
-#l3 {
+#accomplishments {
     animation-delay: 3s;
 }
 
-#programminglangs {
+#l1 {
     animation-delay: 3.5s;
 }
 
-#languagesspoken {
+#l2 {
     animation-delay: 4s;
 }
 
-#accomplishments {
+#l3 {
     animation-delay: 4.5s;
 }
 
@@ -65,12 +65,12 @@ h1 {
 }
 
 #lists {
-    position: absolute;
-    left: 15%;
+    position: relative;
+    left: 10%;
     /* border-style: solid; */
     /* border-color: white; */
     width: 70vw;    /* SET TO 70vw */
-    height: 90vh;   /* SET TO 60vh */
+    height: 60vh;   /* SET TO 60vh */
 }
 
 #list1 {
@@ -78,7 +78,7 @@ h1 {
     /* border-style: solid; */
     /* border-color: white; */
     top: 8%;
-    right: 20%;
+    left: 20%;
 }
 
 #list2 {
@@ -86,7 +86,7 @@ h1 {
     /* border-style: solid; */
     /* border-color: white; */
     top: 8%;
-    left: 20%;
+    right: 10%;
 }
 
 h2 {
