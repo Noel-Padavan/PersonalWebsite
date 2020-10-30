@@ -70,14 +70,14 @@ h1 {
     /* border-style: solid; */
     /* border-color: white; */
     width: 70vw;    /* SET TO 70vw */
-    height: 60vh;   /* SET TO 60vh */
+    height: 90vh;   /* SET TO 60vh */
 }
 
 #list1 {
     position: absolute;
     /* border-style: solid; */
     /* border-color: white; */
-    top: 10%;
+    top: 8%;
     right: 20%;
 }
 
@@ -85,7 +85,7 @@ h1 {
     position: absolute;
     /* border-style: solid; */
     /* border-color: white; */
-    top: 10%;
+    top: 8%;
     left: 20%;
 }
 
