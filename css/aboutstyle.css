@@ -2,9 +2,35 @@
     --animate-duration: 2s;
 }
 
-#programminglangs, #languagesspoken, #accomplishments {
+/* makes the things on the lists bounce */ 
+#bio {
     animation-delay: 1s;
 }
+
+#programminglangs {
+    animation-delay: 2s;
+}
+
+#languagesspoken {
+    animation-delay: 2.5s;
+}
+
+#accomplishments {
+    animation-delay: 3s;
+}
+
+#l1 {
+    animation-delay: 3.5s;
+}
+
+#l2 {
+    animation-delay: 4s;
+}
+
+#l3 {
+    animation-delay: 4.5s;
+}
+
 
 /* controls everything for the header, makes it stick to top*/
 header {
@@ -19,32 +45,60 @@ header {
     right: 0;
     width: 100%;
     font-weight: bold;
-    font-size: 1.5em;
+    font-size: 2em;
 }
 
 h1 {
+    margin-top: 4%;
     text-align: center;
+    /* border-style: solid; */
 }
 
-/* lines all the lists side by side in the most primitive way */
+#bio {
+    margin-top: -4%;
+    text-align: center;
+    font-weight: bold;
+}
+
+#container {
+    position: relative;
+}
+
 #lists {
-    margin-left: 5%;
-}
-#programminglangs {
     position: absolute;
-    top: 21%;
-}
-
-#languagesspoken {
-    position: absolute;
-    top: 21%;
-    margin-left: 33%;
+    left: 15%;
+    /* border-style: solid; */
+    /* border-color: white; */
+    width: 70vw;    /* SET TO 70vw */
+    height: 60vh;   /* SET TO 60vh */
 }
 
-#accomplishments {
+footer {
+    color: white;
+    font-size: 5em;
+    font-weight: bold;
     position: absolute;
-    top: 21%;
-    margin-left: 70%;
+    bottom: 5%;
+    right: -15%;
+}
+
+#list1 {
+    position: absolute;
+    /* border-style: solid; */
+    /* border-color: white; */
+    top: 10%;
+    left: 10%;
+    
+    
+}
+
+#list2 {
+    position: absolute;
+    /* border-style: solid; */
+    /* border-color: white; */
+    top: 10%;
+    right: 25%;
+    
 }
 
 h2 {
@@ -62,12 +116,8 @@ nav > a{
     margin-left: 2vw;
 }
 
-/* for writing purposes only 
-body {
-    background-image: none;
-}*/
-
-#about {
+/* makes arrow to scroll down change colours */
+footer {
     background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
     background-clip: text;
     -webkit-background-clip: text;
@@ -84,19 +134,8 @@ body {
     }
 }
 
-nav > a {
-    background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-animation: hue 10s infinite linear;
+
+nav > a:hover {
+    color: blue;
 }
 
-@-webkit-keyframes hue {
-    from {
-        -webkit-filter: hue-rotate(0deg);
-    }
-    to {
-        -webkit-filter: hue-rotate(-360deg);
-    }
-}
