@@ -1,0 +1,32 @@
+/* controls everything for the header, makes it stick to top*/
+header {
+    border-style: solid;
+    border-color: white;
+    background-color: white;
+    text-align: left;
+    overflow: hidden;
+    position: fixed;
+    line-height: 100%;
+    top: 0;
+    right: 0;
+    width: 100%;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+h1 {
+    margin-top: 4%;
+    text-align: center;
+    /* border-style: solid; */
+}
+
+
+nav > a:hover {
+    color: blue;
+}
+
+nav > a{
+    text-decoration: none;
+    color: black;
+    margin-left: 2vw;
+}

@@ -104,7 +104,7 @@ nav > a{
     margin-left: 2vw;
 }
 
-/* makes arrow to scroll down change colours */
+/* makes arrow to scroll down change colours 
 footer {
     background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
     background-clip: text;
@@ -121,7 +121,7 @@ footer {
         -webkit-filter: hue-rotate(-360deg);
     }
 }
-
+*/
 
 nav > a:hover {
     color: blue;
