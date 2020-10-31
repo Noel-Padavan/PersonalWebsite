@@ -1,0 +1,11 @@
+.container {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+#myCarousel {
+    position: absolute;
+    top: 10vh;
+    right: 5vw;
+}
